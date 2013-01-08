@@ -92,10 +92,21 @@
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Sitecore\GrantThornton\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Sitecore\GrantThornton\MainView.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Renderings\ItemText.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Renderings\ItemImage.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Renderings\Web.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
