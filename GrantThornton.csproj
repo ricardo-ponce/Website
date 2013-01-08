@@ -97,19 +97,16 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\GrantThornton\MainView.cshtml" />
+    <Content Include="Views\GrantThornton\Main Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Renderings\ItemText.cshtml" />
+    <Content Include="Renderings\GrantThornton\ItemText.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Renderings\ItemImage.cshtml" />
+    <Content Include="Renderings\GrantThornton\ItemImage.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Renderings\Web.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Views\GrantThornton\AnotherView.cshtml" />
+    <Content Include="Renderings\GrantThornton\Web.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
