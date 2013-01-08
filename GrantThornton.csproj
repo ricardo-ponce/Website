@@ -97,7 +97,7 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Sitecore\GrantThornton\MainView.cshtml" />
+    <Content Include="Views\GrantThornton\MainView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Renderings\ItemText.cshtml" />
@@ -107,6 +107,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Renderings\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\GrantThornton\AnotherView.cshtml" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
